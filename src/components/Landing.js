@@ -43,7 +43,7 @@ function Landing() {
             </GridItem>
           </SimpleGrid>
         </GridItem>
-        <GridItem colSpan={3}>
+        <GridItem colSpan={2}>
         <Transactions />
         </GridItem>
       </SimpleGrid>
@@ -60,7 +60,7 @@ function Landing() {
             />
           </Center>
         </GridItem>
-        <GridItem colSpan={6}>
+        <GridItem colSpan={3}>
           <News />
         </GridItem>
         <GridItem colSpan={3}>

@@ -6,8 +6,9 @@ import { Flex } from "@chakra-ui/layout";
 import { Box } from "@chakra-ui/layout";
 import { FiArrowDown, FiArrowUp } from "react-icons/fi";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
-  const Item = ({ icon, title, date, amount, isSent }) => (
+  const Item = ({ title, date, amount, isSent }) => (
     <Box>
       <Flex>
         <Box
