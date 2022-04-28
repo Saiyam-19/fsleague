@@ -9,6 +9,7 @@ import { Heading } from "@chakra-ui/react";
 export default () => {
   return (
     <Box p={10}>
+      <Box boxShadow='xl' p='6' rounded='md' bg='white'>
       <Flex>
         <Heading as='h2' size='xl' isTruncated>Hey Saiyam</Heading>
         <Spacer />
@@ -22,6 +23,7 @@ export default () => {
           />
         </HStack>
       </Flex>
+    </Box>
     </Box>
   );
 };

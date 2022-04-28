@@ -17,13 +17,13 @@ function Landing() {
   return (
     <Box>
       <Header />
-      <SimpleGrid columns={10} gap={3}>
+      <SimpleGrid columns={10} gap={4}>
         <GridItem colSpan={1}>
           <Sidebar />
         </GridItem>
         <GridItem colSpan={6}>
           <SimpleGrid columns={5} gap={8}>
-            <GridItem colSpan={3}>
+            <GridItem colSpan={2}>
               <BigCard />
             </GridItem>
             <GridItem colSpan={2}>
@@ -31,12 +31,12 @@ function Landing() {
                 fontWeight="semibold"
                 fontSize="sm"
                 textColor="gray"
-                my={2}
-                ml={8}
+                my={1.5}
+                ml={6}
               >
                 FEES
               </Text>
-              <Stack spacing={4}>
+              <Stack spacing={3}>
                 <SmallCard value="0.069%" text="MAKER" />
                 <SmallCard value="0.069%" text="MAKER" />
               </Stack>
@@ -44,7 +44,7 @@ function Landing() {
           </SimpleGrid>
         </GridItem>
         <GridItem colSpan={3}>
-          <News />
+        <Transactions />
         </GridItem>
       </SimpleGrid>
       <SimpleGrid columns={10} gap={3} mt={12}>
@@ -61,7 +61,7 @@ function Landing() {
           </Center>
         </GridItem>
         <GridItem colSpan={6}>
-          <Transactions />
+          <News />
         </GridItem>
         <GridItem colSpan={3}>
           {/* <Security /> */}

@@ -15,7 +15,8 @@ export default () => {
     </Box>
   );
   return (
-    <Box>
+   
+       <Box boxShadow='xl' p='6' rounded='md' bg='white'>
       <VStack>
         <Item active icon={<RiHomeLine />} />
         <Item icon={<RiShareBoxFill />} />
