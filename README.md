@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Stock Trading Simulator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Contents
+* [About](#about)
+* [Installation](#installation)
+* [Development](#development)
+* [Deployment](#deployment)
 
-## Available Scripts
 
-In the project directory, you can run:
+## About
+Welcome to my Stock Trading Simulator! 
 
-### `npm start`
+The goal of this web app is to allow users to learn about investing in a fun and risk-free manner. Users can access stock data and charts and use the app to buy and sell stocks using their $100k budget to simulate in a simplistic way the investing process.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+It consists of a dynamic ReactJS frontend using Material UI, React Routing and Hooks. The backend API uses NodesJS and ExpressJS to perform user authentication and user and stock information retrieval. Furthermore, the data is stored in a MongoDB database.
+\
+\
+\
+![dashboard.png](dashboard.png)
+\
+\
+\
+This project was selected as an outstanding entry to AlgoExpert's Summer-Fall 2020 project contest: [Algoexpert Contest](https://www.algoexpert.io/swe-project-contests/2020-summer)
 
-### `npm test`
+Demo video: [YouTube](https://www.youtube.com/watch?v=VmBlRCFoDK8)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Check it out: [Website](https://oktarian-trading-simulator.herokuapp.com/) (_Might take a few minutes for the website to load if no one has accessed it recently_)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
+Make sure you have NodeJS installed. Then install the required packages for the server with:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+And the required packages for the client with:
+```sh
+npm run install-client
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Then run the server with:
+```sh
+npm run start
+```
+And run the client with:
+```sh
+cd client
+npm run start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Development
+coming soon...
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deployment
+coming soon...
